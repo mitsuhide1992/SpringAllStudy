@@ -1,4 +1,4 @@
-package com.mitsuhide.entity;
+package com.mitsuhide.entity.common;
 
 import org.springframework.stereotype.Component;
 

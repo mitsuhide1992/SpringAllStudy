@@ -1,4 +1,4 @@
-package com.mitsuhide.entity;
+package com.mitsuhide.entity.common;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 /**
  * Created by zly on 2016/4/15.
  */
+//@ComponentScan
 @Component("Athlete")
-@ComponentScan
 public class Athlete {
     @Autowired
     private Basketball ball;
@@ -22,7 +22,7 @@ public class Athlete {
     }
 
     public String sayHello () {
-        String helloWords = "Hi, I am " + ball.getBallName() + " player";
+        String helloWords = "Hi, I am a " + ball.getBallName() + " player";
         return helloWords;
     }
 }
