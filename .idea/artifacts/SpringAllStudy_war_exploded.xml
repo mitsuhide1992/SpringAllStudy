@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" build-on-make="true" name="SpringAllStudy:war exploded">
-    <output-path>F:/programming/Tomcat/apache-tomcat-8.0.32/webapps/SpringAllStudy</output-path>
+    <output-path>E:/programming/Tomcat/apache-tomcat-8.0.30/webapps/SpringAllStudy</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
