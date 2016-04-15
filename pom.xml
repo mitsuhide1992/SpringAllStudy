@@ -11,11 +11,11 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <jdk.version>1.7</jdk.version>
+        <jdk.version>1.8</jdk.version>
 
         <servlet.version>3.0.1</servlet.version>
-        <spring.version>4.0.0.RELEASE</spring.version>
-        <aspectj.version>1.7.2</aspectj.version>
+        <spring.version>4.2.5.RELEASE</spring.version>
+        <aspectj.version>1.8.9</aspectj.version>
 
         <asm.version>4.0</asm.version>
         <cglib.version>3.0</cglib.version>
@@ -81,6 +81,19 @@
             <artifactId>spring-web</artifactId>
             <version>${spring.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>1.8.9</version>
+        </dependency>
+
 
         <!-- databinding; ObjectMapper, JsonNode and related classes are here -->
 
