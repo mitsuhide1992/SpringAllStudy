@@ -28,6 +28,6 @@
     <!--<bean id="playerAspect" class="com.mitsuhide.entity.aspect.PlayerAspect" />-->
     <!--<bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator"></bean>-->
 
-    <!--<import resource="spring-security.xml"/>-->
+    <import resource="spring-security.xml"/>
 
 </beans>
