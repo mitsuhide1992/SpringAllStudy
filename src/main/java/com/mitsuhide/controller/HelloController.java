@@ -16,6 +16,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/mvc")
 public class HelloController {
+
+    /*
+     * 返回String的消息
+     */
     @RequestMapping("/hello")
     public @ResponseBody String hello () {
 //        ContextLoader context = ContextLoader.getInstance();
@@ -25,4 +29,18 @@ public class HelloController {
 //        zly.sayHello();
         return zly.sayHello();
     }
+
+    /*
+    定位到jsp视图
+     */
+    @RequestMapping(value="/test")
+    public String test () {
+        return "test/hello";
+    }
+
+    @RequestMapping(value="/ajaxR")
+    public @ResponseBody String ajax () {
+        return "hahhaha";
+    }
+
 }

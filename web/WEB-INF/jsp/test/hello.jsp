@@ -9,8 +9,11 @@
 <html>
 <head>
     <title>Title</title>
+    <script src="/resources/plugins/jquery/jquery-1.12.3.js"></script>
+    <script src="/resources/js/test.js"></script>
 </head>
 <body>
     <p>hello world mitsuhide</p>
+    <button onclick="ajaxR();">request</button>
 </body>
 </html>
